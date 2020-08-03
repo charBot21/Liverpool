@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Prueba</string>
+
+    <string name="serach_title">Buscar</string>
+
+    <!-- Message -->
+    <string name="error_connection">Error en la conexión</string>
+    <string name="empty_field">Campo vacío, por favor, ingresa lo que deseas buscar</string>
+
+    <!-- Descriptions -->
+    <string name="ib_search">Buscar</string>
+    <string name="img_item">Image Item</string>
+</resources>

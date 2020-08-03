@@ -1,0 +1,30 @@
+package com.cha.prueba.data.network.model
+
+data class Record(
+    val brand: String,
+    val category: String,
+    val groupType: String,
+    val isHybrid: Boolean,
+    val isImportationProduct: Boolean,
+    val isMarketPlace: Boolean,
+    val lgImage: String,
+    val listPrice: Double,
+    val marketplaceBTMessage: String,
+    val marketplaceSLMessage: String,
+    val maximumListPrice: Double,
+    val maximumPromoPrice: Double,
+    val minimumListPrice: Double,
+    val minimumPromoPrice: Double,
+    val plpFlags: List<Any>,
+    val productAvgRating: Double,
+    val productDisplayName: String,
+    val productId: String,
+    val productRatingCount: Int,
+    val productType: String,
+    val promoPrice: Double,
+    val seller: String,
+    val skuRepositoryId: String,
+    val smImage: String,
+    val variantsColor: List<VariantsColor>,
+    val xlImage: String
+)
